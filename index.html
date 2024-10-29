@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Scatter Plot and Box Plot</title>
+    <link rel="stylesheet" href="boyang.css"> 
+</head>
+<body>
+    <h1>Homework #3: D3 Transitions</h1>
+    <p>Boyang Xu - boyangxu@asu.edu</p>
+
+    <div id="controls">
+        <label for="dataset">Choose a dataset:</label>
+        <select id="dataset">
+            <option value="penguins_cleaned">penguins_cleaned</option>
+            <option value="pokemon">Pokemon</option>
+            <option value="test1">Test1</option>
+            <option value="test2">Test2</option>
+        </select>
+        <label for="x-attribute">X Attribute:</label>
+        <select id="x-attribute"></select>
+
+        <label for="y-attribute">Y Attribute:</label>
+        <select id="y-attribute"></select>
+
+        <label for="color-attribute">Color:</label>
+        <select id="color-attribute"></select>
+
+        <label for="boxplot-attribute">Boxplot:</label>
+        <select id="boxplot-attribute"></select>
+    </div>
+
+    <div id="scatterplot"></div>
+    <div id="boxplot"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="boyang.js"></script> 
+</body>
+</html>
